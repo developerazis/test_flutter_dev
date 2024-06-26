@@ -33,9 +33,11 @@ class PdfPreviewScreen extends StatelessWidget {
         pw.Page(
             build: (pw.Context pdfContext) {
               return pw.Column(
+                  mainAxisAlignment: pw.MainAxisAlignment.center,
+                  // crossAxisAlignment: pw.CrossAxisAlignment.center,
                   children:[
                     pw.Center(
-                        child: pw.Text("Lorem Ipsum")
+                      child: pw.Text("Ini Test Surat Jalan", style: pw.TextStyle(fontWeight: pw.FontWeight.bold, fontSize: 24))
                     )
                   ]
               );
