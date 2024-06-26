@@ -1,6 +1,6 @@
 # test_maha_dev
 
-A new Flutter project.
+A new Flutter project version 3.10.0
 
 ## Getting Started
 
